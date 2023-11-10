@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Stanley's Survey</title>
+ 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="title">Stanley's Survey</h1>
+  <p id="description">Thank you for filling this form</p>
+  <form id="survey-form" action="https://chelseatori.com">
+    <fieldset>
+    <label for="name" id="name-label" >Name<input required type="text" id="name"placeholder="eg. Stanley Obimma"></label>
+    <label for="email" id="email-label" >Email<input required type="email" id="email"placeholder="eg. stanleyobimma4@gmail.com"></label>
+    <label for="number" id="number-label">Age (Optional)<input  type="number" id="number" min="13" max="65" placeholder="eg. 19 years"></label>
+    </fieldset>
+    
+    <fieldset>
+    <label for="dropdown">Which option best describes your current position<select required name="dropdown" id="dropdown">
+      <option value="1">Student</option>
+      <option value="2">Employed</option>
+      <option value="3">Self Employed</option>
+      <option value="4">Unemployed</option>
+    </select></label>
+    </fieldset>
+    
+    <fieldset>
+    <label for="male"><input type="radio" name="sex" value="1" id="male">Male</label>
+    <label for="female"><input type="radio" name="sex"value="2" id="female">Female</label>
+    <label for="not"><input type="radio"name="sex" value="3" id="not">Prefer not to say</label>
+    </fieldset>
+    
+    <fieldset>
+      <p>Select your availabile social networks</p>
+      <label for="1"><input type="checkbox" name="social" value="1" id="1">Facebook</label>
+      <label for="2"><input type="checkbox" name="social" value="2" id="2">Instagram</label>
+      <label for="3"><input type="checkbox" name="social"  value="3" id="3">Whatsapp</label>
+      <label for="4"><input type="checkbox" name="social" value="4"  id="4">Twitter</label>
+    </fieldset>
+    <fieldset>
+      <label> Please add a few text about yourself 
+      <textarea name="" id="" cols="29" rows="10"></textarea></label>
+    </fieldset>
+    
+    <fieldset > 
+    <input id="submit" type="submit">
+    
+    </fieldset>
+   
+   
+    
+  </form>
+</body>
+
+</html>
